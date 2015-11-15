@@ -1,3 +1,3 @@
-# Store Marketplace Deals
+# Hotlist Index
 
-A stream of assorted promotions built with React Native
+A List of Promotions from Store Marketplace. Inspired by Yahoo!.

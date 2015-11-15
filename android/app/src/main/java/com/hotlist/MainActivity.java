@@ -1,4 +1,4 @@
-package com.marketplace;
+package com.hotlist;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -30,7 +30,7 @@ public class MainActivity extends Activity implements DefaultHardwareBackBtnHand
                 .setInitialLifecycleState(LifecycleState.RESUMED)
                 .build();
 
-        mReactRootView.startReactApplication(mReactInstanceManager, "Marketplace", null);
+        mReactRootView.startReactApplication(mReactInstanceManager, "Hotlist", null);
 
         setContentView(mReactRootView);
     }

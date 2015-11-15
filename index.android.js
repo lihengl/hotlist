@@ -11,7 +11,7 @@ var {
   View
 } = React;
 
-var Marketplace = React.createClass({
+var Hotlist = React.createClass({
   getInitialState: function () {
     return {
       dataSource: new ListView.DataSource({
@@ -86,4 +86,4 @@ var styles = StyleSheet.create({
   }
 });
 
-AppRegistry.registerComponent('Marketplace', () => Marketplace);
+AppRegistry.registerComponent('Hotlist', () => Hotlist);
